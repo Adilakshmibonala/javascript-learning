@@ -15,4 +15,8 @@ function checkGuessedNumber() {
         responseMessageElement.textContent = "Congratulations! You Got It Right"
         responseMessageElement.style.backgroundColor = "green"
     }
+    else {
+        responseMessageElement.textContent = "Please Provide A Valid Input"
+        responseMessageElement.style.backgroundColor = "red"
+    }
 }
