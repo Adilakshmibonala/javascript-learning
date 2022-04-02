@@ -14,3 +14,24 @@ button {
     border-color: black;
     cursor: pointer;
 }
+
+#cementColor {
+    background-color: #e0e0e0;
+}
+
+#greenColor {
+    background-color: #6fcf97;
+}
+
+#blueColor {
+    background-color: #56ccf2;
+}
+
+#roseColor {
+    background-color: #bb6bd9;
+}
+
+.paragraph_class {
+    font-size: 15px;
+    font-style: italic;
+}
