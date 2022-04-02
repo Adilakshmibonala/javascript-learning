@@ -6,15 +6,17 @@
     <link rel="stylesheet" href="../css_files/color_picker.css">
 </head>
 <body>
-    <div align="center">
+    <div class="divContainer" id="divElement">
         <h1>Color Picker</h1>
-        <button>#e0e0e0</button>
-        <button>#6fcf97</button>
-        <button>#56ccf2</button>
-        <button>#bb6bd9</button>
+        <button onclick="cementColor()" id="cementColor">#e0e0e0</button>
+        <button onclick="greenColor()" id="greenColor">#6fcf97</button>
+        <button onclick="blueColor()" id="blueColor">#56ccf2</button>
+        <button onclick="roseColor()" id="roseColor">#bb6bd9</button>
         <br><br>
-        <p>Background Color: #bb6bd9</p>
+        <p id="paragraphElement">Background Color: #ffffff</p>
         <p>Try clicking one of the colors above to change the background color of this page!</p>
     </div>
+
+    <script src="../js_files/color_picker.js"></script>
 </body>
 </html>

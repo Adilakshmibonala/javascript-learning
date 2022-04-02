@@ -18,7 +18,7 @@ function onDecrement() {
 }
 
 function onReset() {
-    paragraphElement.textContent = 0
+    paragraphElement.textContent = "0"
     paragraphElement.style.color = "black"
 }
 
