@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
 .vr-website-logo {
     height: 50px;
     width: 50px
@@ -43,4 +46,39 @@
     border-width: 0;
     border-radius: 8px;
     margin-right: 10px;
+}
+
+.products-section {
+    background-color: #f9fbfe;
+}
+.products-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.products-card-image {
+      width: 87px;
+  height: 90px;
+}
+
+.products-card-heading{
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.products-card-content{
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.products-card {
+    text-align: center;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
 }
