@@ -22,3 +22,25 @@
     color: #323f4b;
     font-family: "Roboto"
 }
+
+.banner-section-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+    height: 90vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.banner-view-more-button {
+    color: white;
+    background-color: #323f4b;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
