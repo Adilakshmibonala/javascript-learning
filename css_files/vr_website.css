@@ -59,8 +59,8 @@
 }
 
 .products-card-image {
-      width: 87px;
-  height: 90px;
+    width: 87px;
+    height: 90px;
 }
 
 .products-card-heading{
@@ -81,4 +81,11 @@
     border-width: 1px;
     border-color: #e5eaf4;
     border-radius: 16px;
+}
+
+.vr-kit-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
 }
