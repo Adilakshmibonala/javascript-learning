@@ -47,7 +47,7 @@
 
 .custom-button {
   color: white;
-  background-color: #d0b200;
+  background-image: linear-gradient(#d0b200, #a58d00);
   width: 130px;
   height: 45px;
   border-width: 0;
@@ -188,7 +188,7 @@
   margin-right: 28px;
 }
 .thanking-customers-section {
-  background-color: #d0b2001a;
+  background-image: radial-gradient(#fff8db, #fae38c);
 }
 .thanking-customers-section-heading {
   font-family: "Roboto";
@@ -249,3 +249,9 @@
   padding-right: 16px;
   padding-left: 22px;
 }
+
+.thanking-customers-section-modal-title {
+  color: #d0b200;
+  font-weight: 800;
+}
+
